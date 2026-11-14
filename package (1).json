@@ -1,0 +1,18 @@
+{
+  "name": "patidar-accounts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Daily sales ledger, GST invoices and analysis for Patidar Building Materials",
+  "dependencies": {
+    "@capacitor/android": "6.1.2",
+    "@capacitor/core": "6.1.2",
+    "@capacitor/filesystem": "^6.0.0",
+    "@capacitor/share": "^6.0.0",
+    "jspdf": "2.5.1",
+    "jspdf-autotable": "3.5.31",
+    "pdfjs-dist": "3.11.174"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "6.1.2"
+  }
+}
