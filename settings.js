@@ -25,6 +25,7 @@ function draw(){
  <div class="card"><h3>Backup</h3><p class="mute" style="margin:0">All your data is saved only on this phone. If you change or lose the phone it is gone, so save a backup file now and then and keep it somewhere safe (WhatsApp to yourself, Drive).</p>
  <button class="btn" id="bk" type="button">Save backup file</button>
  <label>Restore from a backup file</label><input id="rs" type="file" accept=".json,application/json"><div class="msg" id="b-m"></div></div>
+ <p class="mute" style="text-align:center"><small>Patidar Accounts · version 4</small></p>
  <div class="card"><h3>Delete everything</h3><p class="mute" style="margin:0">Removes all sales, spends, stock and invoices from this phone. Cannot be undone.</p>
  <label>Type DELETE to confirm</label><input id="dl" autocapitalize="characters"><button class="btn red" id="dl-b" type="button">Delete all data</button></div>`;
  pad();
